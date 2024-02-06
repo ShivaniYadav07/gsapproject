@@ -37,7 +37,7 @@ function Header({ timeline, ease }) {
       {
         opacity: 1,
         y: 0,
-        stagger: 0.4,
+        stagger: 0.2,
         ease: ease,
         duration: 2,
       },

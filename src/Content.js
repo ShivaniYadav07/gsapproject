@@ -22,7 +22,7 @@ const Content = ({timeline}) => {
         opacity: 1,
         y: 0,
         skewY: 0,
-        stagger: 0.4,
+        stagger: 0.2,
         duration: 1, // Adjust the duration as needed
       },
       "-=1"
