@@ -7,6 +7,7 @@
     margin-left: 200px;
     margin-right: 50px;
     flex-direction: column;
+    text-align: center;
 }
 .content h1{
     font-weight: 700;
