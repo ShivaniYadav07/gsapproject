@@ -1,7 +1,6 @@
 import React, { useEffect, useRef } from 'react'
 import "./Content.css";
 import { gsap } from 'gsap';
-import {Link} from 'react-router-dom'
 const Content = ({timeline}) => {
   let h1 = useRef(null);
   let pText = useRef(null);
@@ -45,7 +44,7 @@ const Content = ({timeline}) => {
             Lorem ipsum dolor sit, amet consectetur adipisicing elit. Magnam voluptatibus eveniet sequi.
         </p>
         <button ref ={el => btn = el}>
-            <Link to='/reveal'>explore</Link>
+            Explore
         </button>
       </div>
     </div>
