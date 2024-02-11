@@ -20,10 +20,6 @@ function App() {
       <Images timeline={tl} ease={ease}/>
     </div>
    </div>
-    {/* <div className='container'>
-    <h2 className='homeHeading'>Image Reveal</h2>
-      <Reveal />
-    </div> */}
     </Fragment>
   );
 }
