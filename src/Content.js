@@ -5,6 +5,8 @@ const Content = ({timeline}) => {
   let h1 = useRef(null);
   let pText = useRef(null);
   let btn = useRef(null);
+  
+ 
 
   useEffect(() => {
     // Set initial state (visible)
@@ -28,10 +30,6 @@ const Content = ({timeline}) => {
       "-=1"
     );
   }, [timeline, h1, pText, btn]);
-  
-  
-  
-  
   return (
     <div>
       <div className="content">
@@ -43,7 +41,8 @@ const Content = ({timeline}) => {
         <p ref = {el => pText = el}>
             Lorem ipsum dolor sit, amet consectetur adipisicing elit. Magnam voluptatibus eveniet sequi.
         </p>
-        <button ref ={el => btn = el}>
+        <button ref ={el => btn = el} >
+          
             Explore
         </button>
       </div>

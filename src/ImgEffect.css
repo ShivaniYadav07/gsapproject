@@ -1,4 +1,4 @@
-p {
+main p {
   position: absolute;
   transform: rotate(-90deg);
   top: 400px;
